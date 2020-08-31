@@ -10,6 +10,7 @@
 - [Day 10  數值型特徵-去除離群值](#day-10-數值型特徵-去除離群值)
 - [Day 11](#day-11)
 - [Day 12](#day-12)
+- [Day 13  DataFrame operationData frame merge/常用的 DataFrame 操作](#day-13-DataFrame-operationData-frame-merge/常用的-DataFrame-操作)
 # Day 1   資料介紹與評估資料
 # Day 2   機器學習概論
 # Day 3   機器學習 - 流程與步驟
@@ -26,3 +27,5 @@
 # Day 11
 
 # Day 12
+
+# Day 13  DataFrame operationData frame merge/常用的 DataFrame 操作
