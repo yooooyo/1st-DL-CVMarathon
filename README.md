@@ -43,7 +43,7 @@
 | 13  | [常用的DataFrame操作](#常用的DataFrame操作)                                          |        |     |
 | 14 |  | | |
 | 15 |  | | |
-| 16 | [EDA: 不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)](#EDA:不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel-Density-Estimation-(KDE)) | | |
+| 16 | [EDA: 不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)](#EDA:不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel-Density-Estimation-\(KDE\)) | | |
 |  |  | | |
 
 # 資料介紹與評估資料
