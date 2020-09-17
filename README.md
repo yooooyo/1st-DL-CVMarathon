@@ -1,5 +1,8 @@
 # 資料科學學習地圖
 
+[![hackmd-github-sync-badge](https://hackmd.io/MJUqlpCzTe2lABohydZQZQ/badge)](https://hackmd.io/MJUqlpCzTe2lABohydZQZQ)
+
+
 ---
 
 <img src="https://github.com/chenkenanalytic/img/blob/master/spe-ke/%E5%AD%B8%E7%BF%92%E8%97%8D%E5%9C%96.jpg?raw=true" style="zoom: 25%;" />
@@ -40,7 +43,7 @@
 | 13  | [常用的DataFrame操作](#常用的DataFrame操作)                                          |        |     |
 | 14 |  | | |
 | 15 |  | | |
-| 16 | [EDA: 不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)](#EDA: 不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)) | | |
+| 16 | [EDA: 不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)](#EDA:不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel-Density-Estimation-(KDE)) | | |
 |  |  | | |
 
 # 資料介紹與評估資料
@@ -57,17 +60,22 @@
 # 
 
 # 常用的DataFrame操作
+## HOMEWORK
 
-# EDA: 不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)
+# <font color=#1B7CEB>EDA:不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)</font>
+
+## 目的
+
+:::info
+**- 知道 matplotlib 的其他 theme**
+
+**- 學會什麼是 Kernel Density Estimation (KDE) 與如何繪製**
+:::
 
 ## 繪圖風格
 
----
-
 - plt.style.use(‘default’) # 不需設定就會使用預設
-
 - plt.style.use('ggplot')
-
 - plt.style.use(‘seaborn’) # 或採用 seaborn 套件繪圖
 
 ![ default ggplot seaborn 風格](https://ai100-fileentity.cupoy.com/ml100/dailytask/1586225294169/1594093518238)
@@ -75,16 +83,39 @@
 
 
 :::info
-
-轉變繪圖風格的目的
+> **<font color=#1B7CEB> 轉變繪圖風格的目的 </font>**
 
 用已經被設計過的風格, 讓觀看者更清楚明瞭，包含色彩選擇、線條、樣式等。
 
 :::
 
+## Kernel Density Estimation (KDE)
 
+> 不同 kernel function 的結果
 
+![](https://ai100-fileentity.cupoy.com/ml100/dailytask/1586225294169/1594009345517)
 
+:::info
 
+- 採用無母數方法畫出一個觀察變數的機率密度函數
+  - 某個 X 出現的機率為何
+  
+- Density plot 的特性
+  - 歸一：線下面積和為 1
+  - 對稱：K(-u) = K(u)
+  
+- 常用的 Kernel function
+  - Gaussian (Normal dist)
+  - Cosine
+:::
 
+## 繪圖資源
+
+[Python Graph Gallery](https://python-graph-gallery.com/)
+> ![link text](https://ai100-fileentity.cupoy.com/ml100/dailytask/1586225294169/1594010130470)
+
+[R Graph Gallery](https://www.r-graph-gallery.com/)
+> ![link text](https://ai100-fileentity.cupoy.com/ml100/dailytask/1586225294169/1594010232046)
+
+## HOMEWORK
 
