@@ -44,7 +44,7 @@
 | 14 |  | | |
 | 15 |  | | |
 | 16 | [EDA: 不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)](#EDA:不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel-Density-Estimation-\(KDE\)) | | |
-|  |  | | |
+| 17 | [EDA: 把連續型變數離散化](#EDA: 把連續型變數離散化) | | |
 
 # 資料介紹與評估資料
 # 機器學習概論
@@ -66,11 +66,9 @@
 
 ## 目的
 
-:::info
 **- 知道 matplotlib 的其他 theme**
 
 **- 學會什麼是 Kernel Density Estimation (KDE) 與如何繪製**
-:::
 
 ## 繪圖風格
 
@@ -82,20 +80,15 @@
 
 
 
-:::info
 > **<font color=#1B7CEB> 轉變繪圖風格的目的 </font>**
 
 用已經被設計過的風格, 讓觀看者更清楚明瞭，包含色彩選擇、線條、樣式等。
-
-:::
 
 ## Kernel Density Estimation (KDE)
 
 > 不同 kernel function 的結果
 
 ![](https://ai100-fileentity.cupoy.com/ml100/dailytask/1586225294169/1594009345517)
-
-:::info
 
 - 採用無母數方法畫出一個觀察變數的機率密度函數
   - 某個 X 出現的機率為何
@@ -107,7 +100,7 @@
 - 常用的 Kernel function
   - Gaussian (Normal dist)
   - Cosine
-:::
+  
 
 ## 繪圖資源
 
@@ -118,4 +111,24 @@
 > ![link text](https://ai100-fileentity.cupoy.com/ml100/dailytask/1586225294169/1594010232046)
 
 ## HOMEWORK
+
+# EDA: 把連續型變數離散化
+
+## 目的
+
+- **了解離散化連續數值的意義以及方法**
+
+## 總結
+
+- 離散化的目的是讓事情變簡單、減少 outlier 對分析以及訓練模型的影響
+
+- 主要的方法是等寬劃分 (對應 pandas 中的 cut) 以及等頻劃分 (對應 pandas 中的 qcut)
+
+- 可以依實際需求來自己定義離散化的方式
+
+## HOMEWORK
+
+  
+
+
 
